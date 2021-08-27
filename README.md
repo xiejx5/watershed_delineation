@@ -2,7 +2,7 @@
 
 # Rapid Watershed Delineation<br>using an Automatic Outlet Relocation Algorithm
 
-Delineating a large number of watersheds for hydrological simulations in the big data era 🚀⚡🔥<br>
+Delineating a large number of watersheds for hydrological simulations in the big data era 🔥<br>
 
 </div>
 <br>
@@ -39,7 +39,6 @@ https://user-images.githubusercontent.com/29588684/131083101-51bce671-66a7-462a-
 
 ## ⚡&nbsp;&nbsp;Best Practices
 
-<details>
 <summary><b>Divide [HydroSHES] or [MERIT] Hydro flow direction into several parts to reduce memorary usage</b></summary>
 
 Use miniconda for your python environments (it's usually unnecessary to install full anaconda environment, miniconda should be enough).
@@ -53,27 +52,3 @@ Create environment using bash script provided in the template:
 ```yaml
 bash bash/setup_conda.sh
 ```
-
-</details>
-
-<details>
-<summary><b>Use automatic code formatting</b></summary>
-
-Use pre-commit hooks to standardize code formatting of your project and save mental energy.<br>
-Simply install pre-commit package with:
-```yaml
-pip install pre-commit
-```
-Next, install hooks from [.pre-commit-config.yaml](.pre-commit-config.yaml):
-```yaml
-pre-commit install
-```
-After that your code will be automatically reformatted on every new commit.<br>
-Currently template contains configurations of **black** (python code formatting), **isort** (python import sorting), **flake8** (python code analysis) and **prettier** (yaml formating). <br>
-
-To reformat all files in the project use command:
-```yaml
-pre-commit run -a
-```
-
-</details>
