@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/29588684/131121416-b8949294-71cc-4865-
 ## ⚡&nbsp;&nbsp;Best Practices
 
 ### Use flow directions of [HydroSHEDS](https://www.hydrosheds.org/) and [MERIT Hydro](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/)
-- HydroSHEDS and MERIT Hydro are 90m-resolution flow directions with pits removed, and have been proven effective in watershed delineation. It is recommended to divide the flow directions into several parts to reduce memory usage.
+- HydroSHEDS and MERIT Hydro are 90m-resolution flow directions, and have been proven effective in watershed delineation. It is recommended to divide the flow directions into several parts to reduce memory usage.
 <br>
 
 ### Rerun the algorithm with watershed area as auxiliary information
