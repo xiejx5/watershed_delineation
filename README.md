@@ -3,7 +3,6 @@
 # Rapid Watershed Delineation using an Automatic Outlet Relocation Algorithm
 
 Delineating a large number of watersheds for hydrological simulations in the big data era 🚀⚡🔥<br>
-Click on [<kbd>Download</kbd>](https://github.com/xiejx5/watershed_delineation/releases) to start delineation.
 
 </div>
 <br>
@@ -26,7 +25,7 @@ Click on [<kbd>Download</kbd>](https://github.com/xiejx5/watershed_delineation/r
 
 
 ### Inputs
-1. Flow direction: the path of [tiff format](https://gdal.org/drivers/raster/gtiff.html#) files, which can be a file path or a folder path (see [example_flowdir.tif](example_flowdir.tif) for example)
+1. Flow direction: a file path or a folder path of tiff (see [example_flowdir.tif](example_flowdir.tif) for example)
 2. The given coordinates of watershed outlets: a excel sheet contains longitudes and latitudes in the WGS84 projection. Watershed area is optional as auxiliary information to improve the delineation accuracy (see [example_station.xlsx](example_station.xlsx) for example)
 <br>
 
@@ -38,7 +37,7 @@ Click on [<kbd>Download</kbd>](https://github.com/xiejx5/watershed_delineation/r
 <br>
 
 
-## Best Practices
+## ⚡&nbsp;&nbsp;Best Practices
 
 <details>
 <summary><b>Divide [HydroSHES] or [MERIT] Hydro flow direction into several parts to reduce memorary usage</b></summary>
@@ -53,6 +52,28 @@ bash Miniconda3-latest-Linux-x86_64.sh
 Create environment using bash script provided in the template:
 ```yaml
 bash bash/setup_conda.sh
+```
+
+</details>
+
+<details>
+<summary><b>Use automatic code formatting</b></summary>
+
+Use pre-commit hooks to standardize code formatting of your project and save mental energy.<br>
+Simply install pre-commit package with:
+```yaml
+pip install pre-commit
+```
+Next, install hooks from [.pre-commit-config.yaml](.pre-commit-config.yaml):
+```yaml
+pre-commit install
+```
+After that your code will be automatically reformatted on every new commit.<br>
+Currently template contains configurations of **black** (python code formatting), **isort** (python import sorting), **flake8** (python code analysis) and **prettier** (yaml formating). <br>
+
+To reformat all files in the project use command:
+```yaml
+pre-commit run -a
 ```
 
 </details>
