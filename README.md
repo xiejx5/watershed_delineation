@@ -1,6 +1,6 @@
 <div align="center">
 
-# Rapid Watershed Delineation using an Automatic Outlet Relocation Algorithm
+# Rapid Watershed Delineation<br>using an Automatic Outlet Relocation Algorithm
 
 Delineating a large number of watersheds for hydrological simulations in the big data era 🚀⚡🔥<br>
 
