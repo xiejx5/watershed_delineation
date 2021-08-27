@@ -9,7 +9,7 @@ Delineating a large number of watersheds for hydrological simulations in the big
 
 <div align="center">
 
-![](https://github.com/xiejx5/watershed_delineation/blob/resources/demo.mp4)
+![](Demo.mp4)
 
 </div>
 <br>
