@@ -23,19 +23,16 @@ https://user-images.githubusercontent.com/29588684/131083101-51bce671-66a7-462a-
 - Next, unzip and open watershed.exe, clip start to execute an example
 <br>
 
-
 ### Inputs
 1. Flow direction: a file path or a folder path of tiff (see [example_flowdir.tif](example_flowdir.tif) for example)
 2. The given coordinates of watershed outlets: a excel sheet contains longitudes and latitudes in the WGS84 projection. Watershed area is optional as auxiliary information to improve the delineation accuracy (see [example_station.xlsx](example_station.xlsx) for example)
 <br>
-
 
 ### Outputs
 1. Shapefile: watershed boundaries stored as vector data
 2. Info.xlsx: delineated watershed areas, containing areas of confluence, mainstream, and tributray relocations.
 3. Map.html: a visual map of watershed boundaries with satellite images as the background
 <br>
-
 
 ## ⚡&nbsp;&nbsp;Best Practices
 
