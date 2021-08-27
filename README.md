@@ -37,8 +37,8 @@ https://user-images.githubusercontent.com/29588684/131121416-b8949294-71cc-4865-
 ## ⚡&nbsp;&nbsp;Best Practices
 
 ### Use flow directions of [HydroSHEDS](https://www.hydrosheds.org/) and [MERIT Hydro](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/)
-HydroSHEDS and MERIT Hydro are 90m-resolution flow directions with pits removed, and have been proven effective in watershed delineation. It is recommended to divide the flow directions into several parts to reduce memory usage.
+- HydroSHEDS and MERIT Hydro are 90m-resolution flow directions with pits removed, and have been proven effective in watershed delineation. It is recommended to divide the flow directions into several parts to reduce memory usage.
 <br>
 
 ### Rerun the algorithm with watershed area as auxiliary information
-Assuming that the algorithm incorrectly relocates an outlet to the tributray, and the correct relocation should be on the mainstream. Since the algoirthm also returns the watershed area of mainstream relocation, we can quickly fix this incorrection by reruning the algorithm with the watershed area as auxiliary information.
+- Assuming that the algorithm incorrectly relocates an outlet to the tributray, and the correct relocation should be on the mainstream. Since the algoirthm also returns the watershed area of mainstream relocation, we can quickly fix this incorrection by reruning the algorithm with the watershed area as auxiliary information.
