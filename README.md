@@ -39,16 +39,9 @@ https://user-images.githubusercontent.com/29588684/131083101-51bce671-66a7-462a-
 
 ## ⚡&nbsp;&nbsp;Best Practices
 
-<summary><b>Divide [HydroSHES] or [MERIT] Hydro flow direction into several parts to reduce memorary usage</b></summary>
+### Use flow directions of [HydroSHEDS](https://www.hydrosheds.org/) and [MERIT Hydro](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/)
+HydroSHEDS and MERIT Hydro are 90m-resolution flow directions with pits removed. They have been confirmed effective in watershed delineation. It is recommended to divide the global flow directions into several parts to reduce memory usage.
+<br>
 
-Use miniconda for your python environments (it's usually unnecessary to install full anaconda environment, miniconda should be enough).
-It makes it easier to install some dependencies, like cudatoolkit for GPU support.<br>
-Example installation:
-```yaml
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-```
-Create environment using bash script provided in the template:
-```yaml
-bash bash/setup_conda.sh
-```
+### Rerun the algorithm with watershed area as auxiliary information
+Suppose the algorithm incorrectly relocates a outlet to the tributray during the first run, and the correct relocation should be on the mainstream. Since the algoirthm also returns watershed area relocated on mainstream, we can quickly use the watershed area as auxiliary information to correct the relocation to the mainstream.
