@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/29588684/131121416-b8949294-71cc-4865-
 
 ### Start
 - First, download watershed.zip from the [release page](https://github.com/xiejx5/watershed_delineation/releases)
-- Next, unzip and open watershed.exe, clip start to execute an example
+- Next, unzip and open watershed.exe, click start to execute an example
 <br>
 
 ### Inputs
