@@ -42,3 +42,8 @@ https://user-images.githubusercontent.com/29588684/131121416-b8949294-71cc-4865-
 
 ### Rerun the algorithm with watershed area as auxiliary information
 - Assuming that the algorithm incorrectly relocates an outlet to the tributray, and the correct relocation should be on the mainstream. Since the algoirthm also returns the watershed area of mainstream relocation, we can quickly fix this incorrection by reruning the algorithm with the watershed area as auxiliary information.
+
+## 📌&nbsp;&nbsp;Publications
+
+### The following articles detail the 12 baseflow separation methods and their evaluation criterion.
+- Xie, J., Liu, X., Bai, P., & Liu, C. (2022). Rapid watershed delineation using an automatic outlet relocation algorithm. Water Resources Research, 58, e2021WR031129. https://doi.org/10.1029/2021WR031129
