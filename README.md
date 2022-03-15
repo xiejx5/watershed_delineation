@@ -46,5 +46,5 @@ https://user-images.githubusercontent.com/29588684/131121416-b8949294-71cc-4865-
 
 ## 📌&nbsp;&nbsp;Publications
 
-### It is highly appreciated for citing the following paper.
+### It is highly appreciated for citing the following paper:
 - Xie, J., Liu, X., Bai, P., & Liu, C. (2022). Rapid watershed delineation using an automatic outlet relocation algorithm. Water Resources Research, 58, e2021WR031129. https://doi.org/10.1029/2021WR031129
